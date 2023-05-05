@@ -1,0 +1,54 @@
+.historyListExpense {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+    border-right: 5px solid #9f5f00;
+    margin: auto;
+    width: 70%;
+    font-weight: 600;
+    box-shadow: 1px 1px 5px 0px;
+    position: relative;
+    left: -16px;
+    margin-top: 10px;
+}
+
+
+
+.historyListIncome {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+    border-right: 5px solid #00409f;
+    margin: auto;
+    width: 70%;
+    font-weight: 600;
+    box-shadow: 1px 1px 5px 0px;
+    position: relative;
+    left: -16px;
+    margin-top: 10px;
+}
+
+
+
+.icons {
+    visibility: hidden;
+
+}
+
+.historyListIncome:hover .icons {
+    visibility: visible;
+    cursor: pointer;
+}
+
+.historyListExpense:hover .icons {
+    visibility: visible;
+    cursor: pointer;
+}
+
+.icons:hover {
+    color: red;
+}

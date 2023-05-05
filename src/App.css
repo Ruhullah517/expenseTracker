@@ -1,0 +1,65 @@
+.main {
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    background-color: rgba(192, 192, 192, 0.712);
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+
+.IEparent {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+    width: 90%;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 1px 1px 4px -1px;
+    position: relative;
+    margin: auto;
+}
+
+.child-1>h3 {
+    margin-bottom: 0;
+}
+
+.child-2>h3 {
+    margin-bottom: 0;
+}
+
+.btnDiv {
+    padding: 10px;
+}
+
+.btn {
+
+    font-size: 20px;
+    font-weight: bold;
+    width: 75%;
+    background-color: #35579199;
+    cursor: pointer;
+
+}
+
+.IE1 :nth-child(2) {
+    color: goldenrod;
+}
+
+.IE2 :nth-child(2) {
+    color: cornflowerblue;
+}
+
+input {
+    width: 70%;
+    height: 30px;
+    margin-top:5px;
+}
+
+
+@media screen and (max-width:1023px) {
+    .main{
+        width: 100%;
+    }
+}
